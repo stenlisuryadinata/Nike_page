@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'HelveticaNeue MediumCond';
+	src: url('/fonts//fontHelveticaNeue-MediumCond.woff2') format('woff2'),
+		url('/fonts/HelveticaNeue-MediumCond.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue Regular';
+	src: url('/fonts/HelveticaNeueRegular.woff2') format('woff2'),
+		url('/fonts/HelveticaNeueRegular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'HelveticaNeue Medium';
+	src: url('/fonts/HelveticaNeue-Medium.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Futura Condensed';
+	src: url('/fonts/FuturaCondMedium.woff2') format('woff2'),
+		url('/fonts/FuturaCondMedium.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TradeGothic LT';
+	src: url('/fonts/TradeGothicLT-Bold.woff2') format('woff2'),
+		url('/fonts/TradeGothicLT-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+.smoothScrolling {
+	scroll-behavior: smooth;
+} 
+
+@keyframes showAfterDelay {
+	from {
+		visibility: hidden;
+	}
+	to {
+		visibility: visible;
+	}
+}
+
+.input::placeholder {
+	animation: showAfterDelay 0.2s ease 1s forwards;
+	opacity: 0.5;
+}
+
