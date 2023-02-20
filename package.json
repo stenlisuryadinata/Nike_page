@@ -18,6 +18,7 @@
 		"next-images": "^1.8.1",
 		"next-videos": "^1.4.0",
 		"node-fetch": "^3.0.0",
+		"node-modules": "^1.0.1",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"react-hamburger-menu": "^1.2.1",
@@ -30,7 +31,7 @@
 	"devDependencies": {
 		"@tailwindcss/forms": "^0.3.4",
 		"autoprefixer": "^10.3.2",
-		"postcss": "^8.3.6",
+		"postcss": "^8.4.21",
 		"tailwindcss": "^2.2.7"
 	}
 }
